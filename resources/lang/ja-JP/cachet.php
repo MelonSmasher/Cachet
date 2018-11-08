@@ -23,13 +23,15 @@ return [
         'group' => [
             'other' => 'その他のコンポーネント',
         ],
+        'select_all'   => 'Select All',
+        'deselect_all' => 'Deselect All',
     ],
 
     // Incidents
     'incidents' => [
         'none'         => 'インシデントはありません',
         'past'         => 'インシデント履歴',
-        'stickied'     => 'ピン留めインシデント',
+        'stickied'     => 'Stickied Incidents',
         'scheduled'    => '計画メンテナンス',
         'scheduled_at' => ', 予定日時 :timestamp',
         'posted'       => '掲載日時 :timestamp',
@@ -80,9 +82,12 @@ return [
         'button'              => '購読',
         'manage_subscription' => '購読の管理',
         'manage'              => [
-            'no_subscriptions' => '現在、すべてのアップデートを購読しています。',
-            'my_subscriptions' => '現在、以下のアップデートを購読しています。',
-            'manage_at_link'   => '購読の管理',
+            'notifications'       => 'Notifications',
+            'notifications_for'   => 'Manage notifications for',
+            'no_subscriptions'    => '現在、すべてのアップデートを購読しています。',
+            'update_subscription' => 'Update Subscription',
+            'my_subscriptions'    => '現在、以下のアップデートを購読しています。',
+            'manage_at_link'      => '購読の管理',
         ],
         'email' => [
             'subscribe'          => 'メールによるアップデート情報の購読',
@@ -98,9 +103,9 @@ return [
 
     'signup' => [
         'title'    => '新規登録',
-        'username' => 'ユーザー名',
+        'username' => 'Username',
         'email'    => 'Email',
-        'password' => 'パスワード',
+        'password' => 'Password',
         'success'  => 'アカウントが作成されました。',
         'failure'  => '新規登録に失敗しました。',
     ],
